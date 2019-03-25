@@ -1,9 +1,10 @@
 import React from 'react';
+import PhoneListContainer from './container/PhoneListContainer';
 
 export default function App() {
   return (
     <div>
-      <h1>Parcelsdf</h1>
+      <PhoneListContainer />
     </div>
   );
 }

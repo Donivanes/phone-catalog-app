@@ -1,0 +1,15 @@
+import axios from 'axios';
+import { FETCH_DATA_FULFILLED, FETCH_DATA_REJECTED } from '../constants/ActionTypes';
+
+// eslint-disable-next-line import/prefer-default-export
+export const fetchData = () => (dispatch) => {
+  const getPhones = 'http://localhost:3000/api/phones';
+
+  return axios.get(getPhones)
+    .then((response) => {
+      dispatch({ type: FETCH_DATA_FULFILLED, payload: response.data });
+    })
+    .catch((err) => {
+      dispatch({ type: FETCH_DATA_REJECTED, payload: err });
+    });
+};
