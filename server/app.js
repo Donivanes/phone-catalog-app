@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
+const PORT = 3000;
+
 app.use(cors());
 
 app.use(require('morgan')('dev'));
@@ -22,6 +24,6 @@ app.use((req, res, next) => {
   next(err);
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log('Listening on port 3000');
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Listening on port ${PORT}`);
 });

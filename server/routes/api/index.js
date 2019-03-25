@@ -1,7 +1,8 @@
 const router = require('express').Router();
+const phones = require('../../db/phone.json');
 
-router.get('/', (req, res) => {
-  res.send('hello world');
+router.get('/phones', (req, res) => {
+  res.json(phones);
 });
 
 module.exports = router;
