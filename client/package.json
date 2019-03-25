@@ -10,9 +10,13 @@
   "author": "Giorgio Grassini",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "json5": "^2.1.0",
     "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
