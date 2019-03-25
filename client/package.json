@@ -1,0 +1,24 @@
+{
+  "name": "phone-catalog-app-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/"
+  },
+  "author": "Giorgio Grassini",
+  "license": "ISC",
+  "dependencies": {
+    "json5": "^2.1.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
