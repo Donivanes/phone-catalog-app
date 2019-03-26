@@ -6,7 +6,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import App from './App';
 import rootReducer from './reducers';
-import './sass/main.scss';
+import './style/reset.css';
 
 /* eslint-disable no-underscore-dangle */
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

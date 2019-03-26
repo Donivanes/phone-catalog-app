@@ -1,62 +1,65 @@
 [
   {
-  "id": "motorola-xoom",
-  "imageUrl": "https://i.blogs.es/182789/motorola-xoom/450_1000.jpg",
-  "name": "MOTOROLA XOOM™",
-  "snippet": "The Next, Next Generation Experience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb)."
+  "id": "1",
+  "imageUrl": "https://cdn.yoigo.com/images/23256_samsung-galaxy-s10-negro-front.png",
+  "name": "Samsung Galaxy S10",
+  "snippet": "The Next, Next Generation Experience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb).",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "carrier": "AT&amp;T",
-  "id": "motorola-atrix-4g",
-  "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
-  "name": "MOTOROLA ATRIX™ 4G",
-  "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
+  "id": "2",
+  "imageUrl": "https://cdn.yoigo.com/images/22805_samsung-galaxy-j4-plus-rosa-front.png",
+  "name": "Samsung Galaxy J4 Plus",
+  "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartphone.",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "id": "dell-streak-7",
-  "imageUrl": "img/phones/dell-streak-7.0.jpg",
-  "name": "Dell Streak 7",
-  "snippet": "Introducing Dell™ Streak 7. Share photos, videos and movies together. It’s small enough to carry around, big enough to gather around."
+  "id": "3",
+  "imageUrl": "https://cdn.yoigo.com/images/22345_huawei-y7-2018-negro-front.png",
+  "name": "Huawei Y7 2018",
+  "snippet": "Introducing Dell™ Streak 7. Share photos, videos and movies together. It’s small enough to carry around, big enough to gather around.",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "carrier": "Cellular South",
-  "id": "samsung-gem",
-  "imageUrl": "img/phones/samsung-gem.0.jpg",
-  "name": "Samsung Gem™",
-  "snippet": "The Samsung Gem™ brings you everything that you would expect and more from a touch display smart phone – more apps, more features and a more affordable price."
+  "id": "4",
+  "imageUrl": "https://cdn.yoigo.com/images/20179_zte-blade-a330-negro-front.png",
+  "name": "ZTE Blade A330",
+  "snippet": "The Samsung Gem™ brings you everything that you would expect and more from a touch display smart phone – more apps, more features and a more affordable price.",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "carrier": "Dell",
-  "id": "dell-venue",
-  "imageUrl": "img/phones/dell-venue.0.jpg",
-  "name": "Dell Venue",
-  "snippet": "The Dell Venue; Your Personal Express Lane to Everything"
+  "id": "5",
+  "imageUrl": "https://cdn.yoigo.com/images/22809_samsung-galaxy-j6-plus-gris-front.png",
+  "name": "Samsung Galaxy J6 Plus",
+  "snippet": "The Dell Venue; Your Personal Express Lane to Everything",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "carrier": "Best Buy",
-  "id": "nexus-s",
-  "imageUrl": "img/phones/nexus-s.0.jpg",
-  "name": "Nexus S",
-  "snippet": "Fast just got faster with Nexus S. A pure Google experience, Nexus S is the first phone to run Gingerbread (Android 2.3), the fastest version of Android yet."
+  "id": "6",
+  "imageUrl": "https://cdn.yoigo.com/images/23074_crosscallconbateria.png",
+  "name": "Crosscall Ation X3",
+  "snippet": "Fast just got faster with Nexus S. A pure Google experience, Nexus S is the first phone to run Gingerbread (Android 2.3), the fastest version of Android yet.",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "carrier": "Cellular South",
-  "id": "lg-axis",
-  "imageUrl": "img/phones/lg-axis.0.jpg",
-  "name": "LG Axis",
-  "snippet": "Android Powered, Google Maps Navigation, 5 Customizable Home Screens"
+  "id": "7",
+  "imageUrl": "https://cdn.yoigo.com/images/23031_blackberry-key2-le-negro-front.png",
+  "name": "BlackBerry Key2 LE",
+  "snippet": "Android Powered, Google Maps Navigation, 5 Customizable Home Screens",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "id": "samsung-galaxy-tab",
-  "imageUrl": "img/phones/samsung-galaxy-tab.0.jpg",
-  "name": "Samsung Galaxy Tab™",
-  "snippet": "Feel Free to Tab™. The Samsung Galaxy Tab™ brings you an ultra-mobile entertainment experience through its 7” display, high-power processor and Adobe® Flash® Player compatibility."
+  "id": "8",
+  "imageUrl": "https://cdn.yoigo.com/images/22492_iphone-xr-negro-front.png",
+  "name": "IphoneXR 64GB",
+  "snippet": "Feel Free to Tab™. The Samsung Galaxy Tab™ brings you an ultra-mobile entertainment experience through its 7” display, high-power processor and Adobe® Flash® Player compatibility.",
+  "color": "rgb(0, 0, 0)"
   },
   {
-  "carrier": "Cellular South",
-  "id": "samsung-showcase-a-galaxy-s-phone",
-  "imageUrl": "img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg",
-  "name": "Samsung Showcase™ a Galaxy S™ phone",
-  "snippet": "The Samsung Showcase™ delivers a cinema quality experience like you’ve never seen before. Its innovative 4” touch display technology provides rich picture brilliance, even outdoors"
+  "id": "9",
+  "imageUrl": "https://cdn.yoigo.com/images/23184_honor-view-20-6-128gb-azul-front.png",
+  "name": "Honor View 20 6+ 128GB",
+  "snippet": "The Samsung Showcase™ delivers a cinema quality experience like you’ve never seen before. Its innovative 4” touch display technology provides rich picture brilliance, even outdoors",
+  "color": "rgb(0, 0, 0)"
   }
   ]
