@@ -17,7 +17,7 @@ class PhoneListContainer extends Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { data, status } = this.props;
     return (
       <MainContainer>
         {data ? (
@@ -40,7 +40,7 @@ class PhoneListContainer extends Component {
               </Li>
             ))}
           </Ul>
-        ) : <Spinners />}
+        ) : <Spinners status={status} />}
       </MainContainer>
     );
   }
@@ -49,12 +49,14 @@ class PhoneListContainer extends Component {
 PhoneListContainer.defaultProps = {
   data: [],
   dispatch: PropTypes.func,
+  status: '',
 };
 
 PhoneListContainer.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   data: PropTypes.array,
   dispatch: PropTypes.func,
+  status: PropTypes.string,
 };
 
 export default connect(mapStateToProps)(PhoneListContainer);
