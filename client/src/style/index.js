@@ -36,7 +36,6 @@ export const Li = styled.li`
 
   @media (min-width: 720px) {
     min-width: 40%;
-    background-color: red;
   }
 `;
 
@@ -65,8 +64,8 @@ export const Description = styled.div`
 
 export const Span = styled.span`
   background-color: ${props => props.color};
-  height: 16px;
-  width: 16px;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
   display: block;
   margin-right: 10px;
@@ -75,27 +74,30 @@ export const Span = styled.span`
 export const SpanDiv = styled.div`
   display: flex;
   justify-content: center;
-  width: 20%;
+  width: 50%;
 `;
 
 export const PhoneDetailDiv = styled.div`
   display: flex;
   flex-direction: column;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  max-width: 90%;
   @media (min-width: 720px) {
     flex-direction: row;
-    background-color: red;
   }
 `;
 
 export const PhoneDetailDescriptionDiv = styled.div`
   margin: 0 auto;
-  display: flex;
+  max-width: 50%;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  margin: 2rem 0;
+  >h1 {
+    line-height: 3rem;
+  }
+  >p {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const PhoneMainImage = styled.img`

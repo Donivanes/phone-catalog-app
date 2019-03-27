@@ -4,14 +4,14 @@
   "imageUrl": "https://cdn.yoigo.com/images/23256_samsung-galaxy-s10-negro-front.png",
   "name": "Samsung Galaxy S10",
   "snippet": "Suena a la típica frase del lobo feroz, pero con la cámara frontal de 10 MP AF, con la trasera de Dual de 12 MP + 12 MP + 16 MP AF y Flash y con los altavoces Estéreo AKG + Dolby Atmos vas a poder ver y oír mucho mejor. Llévatelo al mejor precio con nuestras ofertas en Tarifas Móviles de Tarjeta o Contrato. ¡Te mereces lo mejor! ",
-  "colors": ["rgb(0, 0, 0)",["rgb(0, 255, 255)"]]
+  "colors": ["rgb(0, 0, 0)","rgb(0, 255, 255)"]
   },
   {
   "id": "2",
   "imageUrl": "https://cdn.yoigo.com/images/22805_samsung-galaxy-j4-plus-rosa-front.png",
   "name": "Samsung Galaxy J4 Plus",
   "snippet": "Suena a la típica frase del lobo feroz, pero con la cámara frontal de 10 MP AF, con la trasera de Dual de 12 MP + 12 MP + 16 MP AF y Flash y con los altavoces Estéreo AKG + Dolby Atmos vas a poder ver y oír mucho mejor. Llévatelo al mejor precio con nuestras ofertas en Tarifas Móviles de Tarjeta o Contrato. ¡Te mereces lo mejor! ",
-  "colors": ["rgb(0, 0, 0)"]
+  "colors": ["rgb(0, 0, 0)","rgb(255, 0, 0)"]
   },
   {
   "id": "3",
