@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import Spinners from '../components/Spinners';
 import { fetchData } from '../actions/phone';
 import {
-  MainContainer, Ul, Li, Img, PhoneContainer, A,
+  MainContainer, Ul, Li, Img, PhoneContainer, Description, Span, SpanDiv,
 } from '../style';
 
 const mapStateToProps = state => ({ ...state.phone });
@@ -15,7 +16,6 @@ class PhoneListContainer extends Component {
     dispatch(fetchData());
   }
 
-
   render() {
     const { data } = this.props;
     return (
@@ -24,15 +24,19 @@ class PhoneListContainer extends Component {
           <Ul>
             {data.map(phone => (
               <Li key={phone.id}>
-                <A href="/home">
+                <Link to={{ pathname: '/phoneDetail', state: { phone } }}>
                   <PhoneContainer>
                     <Img src={phone.imageUrl} alt={phone.name} />
-                    <div>
+                    <Description>
                       <h1>{phone.name}</h1>
-                      <h1>asdfads</h1>
-                    </div>
+                      <SpanDiv>
+                        {phone.colors.map(color => (
+                          <Span key={phone.id + color} color={color} />
+                        ))}
+                      </SpanDiv>
+                    </Description>
                   </PhoneContainer>
-                </A>
+                </Link>
               </Li>
             ))}
           </Ul>
