@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-expressions */
-import phone from './phone';
+import phone from '../../src/reducers/phone';
 
 describe('getPhones', () => {
   it('should return an object with data and status', () => {
