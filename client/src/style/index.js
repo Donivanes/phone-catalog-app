@@ -59,7 +59,6 @@ export const Description = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  text-decoration: none;
 `;
 
 export const Span = styled.span`

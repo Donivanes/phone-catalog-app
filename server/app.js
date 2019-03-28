@@ -27,3 +27,5 @@ app.use((req, res, next) => {
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
+
+module.exports = app;
