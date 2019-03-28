@@ -51,7 +51,7 @@
     "verbose": true,
     "clearMocks": true,
     "collectCoverage": true,
-    "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setup/setupEnzyme.js",
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests/setupEnzyme.js",
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest"
     },

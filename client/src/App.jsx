@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import PhoneListContainer from './container/PhoneListContainer';
-import PhoneDetailComponent from './components/PhoneDetailComponent';
+import PhoneDetailComponent from './components/PhoneDetail';
 
 const App = () => (
   <Switch>
