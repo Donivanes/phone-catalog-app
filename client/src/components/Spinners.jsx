@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../style/spinner.css';
+import '../styles/spinner.css';
 
 // eslint-disable-next-line react/prop-types
 const Spinners = ({ status }) => (

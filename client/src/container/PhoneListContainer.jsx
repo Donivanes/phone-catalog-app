@@ -6,8 +6,8 @@ import { lifecycle } from 'recompose';
 import Spinners from '../components/Spinners';
 import { fetchData } from '../actions/phone';
 import {
-  MainContainer, Ul, Li, Img, PhoneContainer, Description, Span, SpanDiv,
-} from '../style';
+  MainContainer, Ul, Li, Img, PhoneContainer, Description, Span, ColorSwatches,
+} from '../styles';
 
 
 const PhoneList = ({ data, status }) => (
@@ -21,11 +21,11 @@ const PhoneList = ({ data, status }) => (
                 <Img src={phone.imageUrl} alt={phone.name} />
                 <Description>
                   <h1>{phone.name}</h1>
-                  <SpanDiv>
+                  <ColorSwatches>
                     {phone.colors.map(color => (
                       <Span key={phone.id + color} color={color} />
                     ))}
-                  </SpanDiv>
+                  </ColorSwatches>
                 </Description>
               </PhoneContainer>
             </Link>
@@ -39,8 +39,8 @@ const PhoneList = ({ data, status }) => (
 
 const PhoneListContainer = lifecycle({
   componentDidMount() {
-    const { dispatch } = this.props;
-    dispatch(fetchData());
+    const { fetchDataDispatch } = this.props;
+    fetchDataDispatch();
   },
 })(PhoneList);
 
@@ -56,4 +56,8 @@ PhoneList.propTypes = {
 };
 
 const mapStateToProps = state => ({ ...state.phone });
-export default connect(mapStateToProps)(PhoneListContainer);
+const mapDispatchToProps = {
+  fetchDataDispatch: fetchData,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(PhoneListContainer);

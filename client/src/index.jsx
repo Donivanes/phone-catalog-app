@@ -7,7 +7,7 @@ import { HashRouter as Router } from 'react-router-dom';
 import thunk from 'redux-thunk';
 import App from './App';
 import rootReducer from './reducers';
-import './style/reset.css';
+import './styles/reset.css';
 
 /* eslint-disable no-underscore-dangle */
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
