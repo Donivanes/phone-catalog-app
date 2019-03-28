@@ -10,18 +10,25 @@ import {
 export default class PhoneDetailComponent extends Component {
   render() {
     const { state } = this.props.location;
+    const {
+      name,
+      imageUrl,
+      snippet,
+      colors,
+    } = state.phone;
+
     return (
       <MainContainer>
         { state ? (
           <PhoneDetailDiv>
-            <PhoneMainImage src={state.phone.imageUrl} alt={state.phone.imageUrl} />
+            <PhoneMainImage src={imageUrl} alt={imageUrl} />
             <PhoneDetailDescriptionDiv>
               <Link to="/">Go Back</Link>
-              <h1>{state.phone.name}</h1>
-              <p>{state.phone.snippet}</p>
+              <h1>{name}</h1>
+              <p>{snippet}</p>
               <p>Colors:</p>
               <SpanDiv>
-                {state.phone.colors.map(color => <Span key={color} color={color} />)}
+                {colors.map(color => <Span key={color} color={color} />)}
               </SpanDiv>
             </PhoneDetailDescriptionDiv>
           </PhoneDetailDiv>

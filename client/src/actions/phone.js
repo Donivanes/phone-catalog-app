@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import axios from 'axios';
 import { FETCH_DATA_FULFILLED, FETCH_DATA_REJECTED } from '../constants/ActionTypes';
 
