@@ -17,7 +17,6 @@ export default function reducer(state = {
         ...state,
         status: 'failed',
       };
-      console.error(`Could not fetch the data from webservice. ${action.payload}.`); // eslint-disable-line
     }
     default:
       return state;
