@@ -4,9 +4,11 @@
 import React from 'react';
 import { Redirect, Link } from 'react-router-dom';
 import {
-  Span, MainContainer, ColorSwatches,
+  Span, MainContainer,
 } from '../../styles';
-import { PhoneDetailDiv, PhoneDetailDescriptionDiv, PhoneMainImage } from './PhoneDetail.styles';
+import {
+  PhoneDetailDiv, PhoneDetailDescriptionDiv, PhoneMainImage, ColorSwatches,
+} from './PhoneDetail.styles';
 
 const PhoneDetail = ({ location }) => {
   const { state } = location;

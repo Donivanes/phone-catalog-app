@@ -18,12 +18,13 @@ export const Li = styled.li`
   justify-content: center;
   align-items: center;
   min-width: 60%; 
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  border-radius: 4px;
 
   &:hover {
     transition: box-shadow .3s ease-out,-webkit-box-shadow .3s ease-out;
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,.5);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.12);
     >A{
         >div{
           >img{
