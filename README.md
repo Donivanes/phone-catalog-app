@@ -21,12 +21,14 @@ git clone https://github.com/Girgetto/phone-catalog-app.git
 Run the server:
 ````
 cd server/
+yarn install
 yarn start
 ````
 
 Run the client:
 ````
 cd client/
+yarn install
 yarn dev
 ````
 

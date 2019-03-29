@@ -13,7 +13,14 @@ describe('PhoneDetail', () => {
   });
 
   it('matcher snapshot', () => {
-    const shallowApp = shallow(<PhoneDetail location={{ state: {phone:  { name: 'Xiaomi', imageUrl: '', colors: ['black'], snippet: 'so cool' } } }}  />);
+    const shallowApp = shallow(<PhoneDetail location={{
+      state: {
+        phone: {
+          name: 'Xiaomi', imageUrl: '', colors: ['black'], snippet: 'so cool',
+        },
+      },
+    }}
+    />);
     expect(shallowApp).toMatchSnapshot();
   });
 });
