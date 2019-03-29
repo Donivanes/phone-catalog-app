@@ -9,7 +9,6 @@ export const fetchData = () => (dispatch, getState) => {
     const getPhones = 'http://localhost:3000/api/phones';
     return axios.get(getPhones)
       .then((response) => {
-        console.log(response)
         dispatch({ type: FETCH_DATA_FULFILLED, payload: response.data });
       })
       .catch((err) => {
