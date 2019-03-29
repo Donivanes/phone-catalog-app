@@ -25,7 +25,7 @@
   "imageUrl": "https://cdn.yoigo.com/images/20179_zte-blade-a330-negro-front.png",
   "name": "ZTE Blade A330",
   "snippet": "Suena a la típica frase del lobo feroz, pero con la cámara frontal de 10 MP AF, con la trasera de Dual de 12 MP + 12 MP + 16 MP AF y Flash y con los altavoces Estéreo AKG + Dolby Atmos vas a poder ver y oír mucho mejor. Llévatelo al mejor precio con nuestras ofertas en Tarifas Móviles de Tarjeta o Contrato. ¡Te mereces lo mejor! ",
-  "colors": ["rgb(0, 0, 0)"]
+  "colors": ["rgb(0, 0, 0)","rgb(255, 255, 255)"]
   },
   {
   "id": "5",
@@ -39,14 +39,14 @@
   "imageUrl": "https://cdn.yoigo.com/images/23074_crosscallconbateria.png",
   "name": "Crosscall Ation X3",
   "snippet": "Suena a la típica frase del lobo feroz, pero con la cámara frontal de 10 MP AF, con la trasera de Dual de 12 MP + 12 MP + 16 MP AF y Flash y con los altavoces Estéreo AKG + Dolby Atmos vas a poder ver y oír mucho mejor. Llévatelo al mejor precio con nuestras ofertas en Tarifas Móviles de Tarjeta o Contrato. ¡Te mereces lo mejor! ",
-  "colors": ["rgb(0, 0, 0)","rgb(120, 120, 120)"]
+  "colors": ["rgb(0, 0, 0)","rgb(120, 120, 120)","rgb(255, 255, 255)"]
   },
   {
   "id": "7",
   "imageUrl": "https://cdn.yoigo.com/images/23031_blackberry-key2-le-negro-front.png",
   "name": "BlackBerry Key2 LE",
   "snippet": "Suena a la típica frase del lobo feroz, pero con la cámara frontal de 10 MP AF, con la trasera de Dual de 12 MP + 12 MP + 16 MP AF y Flash y con los altavoces Estéreo AKG + Dolby Atmos vas a poder ver y oír mucho mejor. Llévatelo al mejor precio con nuestras ofertas en Tarifas Móviles de Tarjeta o Contrato. ¡Te mereces lo mejor! ",
-  "colors": ["rgb(0, 0, 0)"]
+  "colors": ["rgb(0, 0, 0)","rgb(255, 0, 0)"]
   },
   {
   "id": "8",

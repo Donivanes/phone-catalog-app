@@ -69,6 +69,7 @@ export const Span = styled.span`
   border-radius: 50%;
   display: block;
   margin-right: 10px;
+  border: .1px solid;
 `;
 
 export const ColorSwatches = styled.div`
