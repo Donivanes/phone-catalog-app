@@ -115,7 +115,7 @@ ShallowWrapper {
               "isStatic": true,
               "rules": Array [
                 "
-max-width: 35%;
+  max-width: 35%;
 ",
               ],
             },
@@ -241,6 +241,7 @@ max-width: 35%;
   border-radius: 50%;
   display: block;
   margin-right: 10px;
+  border: .1px solid;
 ",
                       ],
                     },
@@ -259,20 +260,20 @@ max-width: 35%;
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-gzVnrw",
+                  "componentId": "sc-gZMcBi",
                   "isStatic": true,
                   "rules": Array [
                     "
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 30%;
 ",
                   ],
                 },
                 "displayName": "styled.div",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "sc-gzVnrw",
+                "styledComponentId": "sc-gZMcBi",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -294,6 +295,9 @@ flex-direction: column;
 margin: 2rem 0;
 >h1 {
   line-height: 3rem;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 2em 0 1em;
 }
 >p {
   margin-bottom: 2rem;
@@ -452,7 +456,7 @@ max-width: 90%;
                 "isStatic": true,
                 "rules": Array [
                   "
-max-width: 35%;
+  max-width: 35%;
 ",
                 ],
               },
@@ -578,6 +582,7 @@ max-width: 35%;
   border-radius: 50%;
   display: block;
   margin-right: 10px;
+  border: .1px solid;
 ",
                         ],
                       },
@@ -596,20 +601,20 @@ max-width: 35%;
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gzVnrw",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": true,
                     "rules": Array [
                       "
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 30%;
 ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gzVnrw",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -631,6 +636,9 @@ flex-direction: column;
 margin: 2rem 0;
 >h1 {
   line-height: 3rem;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 2em 0 1em;
 }
 >p {
   margin-bottom: 2rem;
