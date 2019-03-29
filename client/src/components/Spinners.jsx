@@ -16,7 +16,7 @@ const Spinners = ({ status }) => (
       <div />
     </div>
     <div />
-    {status && <h1>Problems With the connections</h1>}
+    {status && <h1>Problems with the connection</h1>}
   </div>
 );
 
