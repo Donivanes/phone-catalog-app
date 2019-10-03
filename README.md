@@ -49,7 +49,7 @@ yarn test
 
 Build the docker image:
 
-  ```docker build -t phonecatalog```
+  ```docker build -t phonecatalog .```
   
 Run the Docker image:
   
